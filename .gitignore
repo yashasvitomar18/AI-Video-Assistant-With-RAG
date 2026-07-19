@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+downloades/
+downloads/
+*.wav
+*.mp3
+*.mp4
+
+chroma_db/
+vector_db/
