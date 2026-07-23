@@ -1,36 +1,41 @@
 # ---------------- Audio ----------------
-yt-dlp
-pydub
+yt-dlp==2024.8.6
+pydub==0.25.1
 
 # ---------------- Whisper ----------------
-openai-whisper
+openai-whisper==20231117
 torch==2.2.2
 torchaudio==2.2.2
 
-# ---------------- Translation ----------------
-requests
-python-dotenv
-deep-translator
-
 # ---------------- LangChain ----------------
-langchain
-langchain-core
-langchain-community
-langchain-mistralai
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-community==0.2.19
+langchain-text-splitters==0.2.4
+
+# ---------------- Mistral ----------------
+mistralai==0.4.2
+langchain-mistralai==0.1.13
 
 # ---------------- RAG ----------------
-chromadb
-langchain-chroma
-langchain-huggingface
-sentence-transformers
+chromadb==0.5.5
+langchain-chroma==0.1.4
+langchain-huggingface==0.0.3
+sentence-transformers==3.0.1
+transformers==4.41.2
+huggingface-hub==0.23.5
+tiktoken==0.7.0
 
 # ---------------- UI ----------------
-streamlit
+streamlit==1.35.0
 
 # ---------------- PDF ----------------
-reportlab
-fpdf2
+reportlab==4.2.2
+fpdf2==2.7.9
 
 # ---------------- Utils ----------------
-numpy
-tqdm
+python-dotenv==1.0.1
+numpy==1.26.4
+requests==2.32.3
+tqdm==4.66.5
+deep-translator==1.11.4
