@@ -7,6 +7,9 @@ openai-whisper==20231117
 torch==2.2.2
 torchaudio==2.2.2
 
+# ---------------- Translation ----------------
+deep-translator==1.11.4
+
 # ---------------- LangChain ----------------
 langchain==0.2.17
 langchain-core==0.2.43
@@ -38,4 +41,3 @@ python-dotenv==1.0.1
 numpy==1.26.4
 requests==2.32.3
 tqdm==4.66.5
-deep-translator==1.11.4
