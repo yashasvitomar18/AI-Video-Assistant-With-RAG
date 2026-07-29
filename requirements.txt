@@ -19,7 +19,7 @@ mistralai==0.4.2
 langchain-mistralai==0.1.13
 
 # ---------------- RAG ----------------
-chromadb==0.5.5
+chromadb==0.5.3
 langchain-chroma==0.1.4
 tiktoken==0.7.0
 
